@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>用户注册</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+</head>
+<div id="like_button_container"></div>
+
+<body  style="background-color: aquamarine">
+
+<div class="bg" style="width: 200px;height: 300px;position: fixed;top: 20%;left: 0px;right: 0px;margin: auto" >
+    <form method="post" action="/user/save.html">
+        <h1>用户注册</h1>
+        <div class="name">手机号：  <input type="text" name="cellphone" value="" placeholder="请输入手机或者邮箱"></div>
+        <div class="password">密码：<input type="password" name="password" value="" placeholder="请输入账号密码"></div>
+        <br>
+<div class="register"><input class="but" id="log" type="submit"  value="注册"></div>
+     </form>
+    <!--                <p style="color: #dc3942" th:if="${msg}">用户名已存在，请重新注册！</p>-->
+</div>
+
+</body>
+</html>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+<!-- 加载我们的 React 组件。-->
+<script src="like_button.js"></script>
