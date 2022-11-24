@@ -23,7 +23,7 @@
     <spring.version>4.3.9.RELEASE</spring.version>
 
     <!--Hibernate版本号-->
-    <hibernate.version>4.3.11.Final</hibernate.version>
+    <hibernate.version>5.3.20.Final</hibernate.version>
 
     <!--MySQL驱动版本号-->
     <mysql-driver.version>8.0.17</mysql-driver.version>
